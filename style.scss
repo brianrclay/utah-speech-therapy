@@ -139,6 +139,19 @@ div, button{
     height: $spacing-16px;
 }
 
+// Links
+
+a, .link{
+    color: $blue-300;
+    transition: $transition;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover{
+        color: $blue-400;
+    }
+}
+
 //Buttons
 
 button{
