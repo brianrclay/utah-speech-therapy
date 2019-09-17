@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sandbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Easing Curves & Animations</h1>
+    <p class="color-secondary">Examples of how Kyper Animations and Easing Curves work.</p>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <h3>Background Colors</h3>
+    <div class="spacer"></div>
+    <button class="primary">Primary</button>
+    <button class="outline">Outline</button>
+    <button>Secondary</button>
+    <div class="spacer"></div>
+    <button class="primary icon-btn">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0ZM8 1.06667C4.17083 1.06667 1.06667 4.17083 1.06667 8C1.06667 11.8292 4.17083 14.9333 8 14.9333C11.8292 14.9333 14.9333 11.8292 14.9333 8C14.9333 4.17083 11.8292 1.06667 8 1.06667ZM8 2.54197C8.2651 2.54197 8.48 2.75687 8.48 3.02197L8.48013 7.51987L12.978 7.52C13.2431 7.52 13.458 7.7349 13.458 8C13.458 8.2651 13.2431 8.48 12.978 8.48L8.48013 8.48013L8.48 12.978C8.48 13.2431 8.2651 13.458 8 13.458C7.7349 13.458 7.52 13.2431 7.52 12.978L7.51987 8.48013L3.02197 8.48C2.75687 8.48 2.54197 8.2651 2.54197 8C2.54197 7.7349 2.75687 7.52 3.02197 7.52L7.51987 7.51987L7.52 3.02197C7.52 2.75687 7.7349 2.54197 8 2.54197Z"
+                fill="currentColor" />
+        </svg>
+        <span>Primary Icon Left</span>
+    </button>
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <h3>Drawers</h3>
+    <div class="spacer"></div>
+    <button class="toggle-drawer">Toggle Drawer</button>
+    
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <h3>Modals</h3>
+    <div class="spacer"></div>
+    <button class="show-modal">Show Modal</button>
+
+    <div class="drawer">
+        <div class="close">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.8594 4.14059C12.0469 4.32804 12.0469 4.63196 11.8594 4.81941L8.679 8L11.8594 11.1806C12.0469 11.368 12.0469 11.672 11.8594 11.8594C11.672 12.0469 11.368 12.0469 11.1806 11.8594L8 8.679L4.81941 11.8594C4.63196 12.0469 4.32804 12.0469 4.14059 11.8594C3.95314 11.672 3.95314 11.368 4.14059 11.1806L7.321 8L4.14059 4.81941C3.95314 4.63196 3.95314 4.32804 4.14059 4.14059C4.32804 3.95314 4.63196 3.95314 4.81941 4.14059L8 7.321L11.1806 4.14059C11.368 3.95314 11.672 3.95314 11.8594 4.14059Z"
+                    fill="#19212C" />
+            </svg>
+        </div>
+        <h3>I'm a drawer</h3>
+        <div class="spacer"></div>
+        <button class="close-drawer">Close</button>
+    </div>
+    
+    <div class="modal-overlay"></div>
+    <div class="modal">
+        <div class="close">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.8594 4.14059C12.0469 4.32804 12.0469 4.63196 11.8594 4.81941L8.679 8L11.8594 11.1806C12.0469 11.368 12.0469 11.672 11.8594 11.8594C11.672 12.0469 11.368 12.0469 11.1806 11.8594L8 8.679L4.81941 11.8594C4.63196 12.0469 4.32804 12.0469 4.14059 11.8594C3.95314 11.672 3.95314 11.368 4.14059 11.1806L7.321 8L4.14059 4.81941C3.95314 4.63196 3.95314 4.32804 4.14059 4.14059C4.32804 3.95314 4.63196 3.95314 4.81941 4.14059L8 7.321L11.1806 4.14059C11.368 3.95314 11.672 3.95314 11.8594 4.14059Z"
+                    fill="#19212C" />
+            </svg>
+        </div>
+        <h3>I'm a modal</h3>
+        <div class="spacer"></div>
+        <button class="close-modal">Close</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
