@@ -1,0 +1,57 @@
+doctype html
+head
+  title Sandbox
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='./css/style.css' rel='stylesheet')
+.page-wrapper
+  header.bg-img
+    include shared/nav.pug
+    .content-wrapper
+      .header-content
+        h1 Speech therapy for children and teens
+        a.btn.m-b-16.m-t-32(href='#') Apply Now
+        h5.color-secondary 5 spots left for Nov-Dec 2019
+  section.services.m-t-80.m-b-56
+    .content-wrapper
+      .services-header.flex.jc-between.ai-center.m-b-40
+        .fancy-header.flex.ai-start
+          h1 Our Services
+          img(src="./assets/purple-dot.svg" alt="purple style dot")
+        .video-cta.flex.ai-center
+          span.color-secondary.m-r-12 Video Chat Sessions Available
+          img(src="./assets/video.svg")
+      .services-grid
+        a.card(href="/our-services")
+          .card-img.bg-img(style="background-image:url('./assets/card-images/01.png');")
+          .card-bottom
+            h4.bold Language Disorders
+            p.small-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sit cursus aliquam odio arcu. Ipsum risus viverra amet sem consectetur mattis feugiat magna.
+        a.card(href="/our-services")
+          .card-img.bg-img(style="background-image:url('./assets/card-images/02.png');")
+          .card-bottom
+            h4.bold Language Disorders
+            p.small-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sit cursus aliquam odio arcu. Ipsum risus viverra amet sem consectetur mattis feugiat magna.
+        a.card(href="/our-services")
+          .card-img.bg-img(style="background-image:url('./assets/card-images/03.png');")
+          .card-bottom
+            h4.bold Language Disorders
+            p.small-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sit cursus aliquam odio arcu. Ipsum risus viverra amet sem consectetur mattis feugiat magna.
+        a.card(href="/our-services")
+          .card-img.bg-img(style="background-image:url('./assets/card-images/04.png');")
+          .card-bottom
+            h4.bold Language Disorders
+            p.small-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sit cursus aliquam odio arcu. Ipsum risus viverra amet sem consectetur mattis feugiat magna.
+        a.card(href="/our-services")
+          .card-img.bg-img(style="background-image:url('./assets/card-images/05.png');")
+          .card-bottom
+            h4.bold Language Disorders
+            p.small-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sit cursus aliquam odio arcu. Ipsum risus viverra amet sem consectetur mattis feugiat magna.
+        a.card(href="/our-services")
+          .card-img.bg-img(style="background-image:url('./assets/card-images/06.png');")
+          .card-bottom
+            h4.bold Language Disorders
+            p.small-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sit cursus aliquam odio arcu. Ipsum risus viverra amet sem consectetur mattis feugiat magna.
+        
+.mobile-menu-scrim
+script(src='https://code.jquery.com/jquery-3.4.1.js' integrity='sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=' crossorigin='anonymous')
+script(src='./js/main.js')
