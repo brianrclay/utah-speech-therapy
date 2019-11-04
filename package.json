@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brianrclay/kyper-easing-and-animation.git"
+    "url": "git+https://github.com/brianrclay/utah-speech-therapy.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brianrclay/kyper-easing-and-animation/issues"
+    "url": "https://github.com/brianrclay/utah-speech-therapy/issues"
   },
-  "homepage": "https://github.com/brianrclay/kyper-easing-and-animation#readme",
+  "homepage": "https://github.com/brianrclay/utah-speech-therapy#readme",
   "dependencies": {
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6"
