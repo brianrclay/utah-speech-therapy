@@ -1,7 +1,15 @@
 doctype html
 head
-  title Sandbox
+  title Utah Speech Therapy
+  meta(name='description' content='Professional speech therapy based in Eagle Mountain UT. Pricing starts at $40/session. Call today to get a free consultation!')
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(property='og:title' content='Utah Speech Therapy')
+  meta(property='og:site_name' content='Utah Speech Therapy')
+  meta(property='og:url' content='utahspeech.com')
+  meta(property='og:description' content='')
+  meta(property='og:type' content='business.business')
+  meta(property='og:image' content='./assets/og-image.png')
+  link(href='/assets/favicon.jpg' rel='icon')
   link(href='./css/style.css' rel='stylesheet')
 .page-wrapper
   header.bg-img
@@ -53,5 +61,4 @@ head
             p.small-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra sit cursus aliquam odio arcu. Ipsum risus viverra amet sem consectetur mattis feugiat magna.
         
 .mobile-menu-scrim
-script(src='https://code.jquery.com/jquery-3.4.1.js' integrity='sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=' crossorigin='anonymous')
-script(src='./js/main.js')
+include shared/scripts.pug
