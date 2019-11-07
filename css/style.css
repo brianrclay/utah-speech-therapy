@@ -57,7 +57,7 @@ table {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/ProximaNova-Reg.woff2") format("woff2"), url("../fonts/Inter-Regular.woff?v=3.11") format("woff");
+  src: url("../fonts/ProximaNova-Reg.woff2") format("woff2");
 }
 
 @font-face {
@@ -65,7 +65,7 @@ table {
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/ProximaNova-Sbold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff?v=3.11") format("woff");
+  src: url("../fonts/ProximaNova-Sbold.woff2") format("woff2");
 }
 
 @font-face {
@@ -73,7 +73,7 @@ table {
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/Inter-ExtraBold.woff?v=3.11") format("woff");
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2");
 }
 
 .color-default, div, p, a, input, textarea, label, button, h1, h2, h3 {
