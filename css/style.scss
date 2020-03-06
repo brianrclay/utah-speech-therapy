@@ -15,40 +15,64 @@ $easing: cubic-bezier(.475,.425,0,.995);
 // Shadows
 $shadow-card: 0px 2px 6px rgba(0, 0, 0, 0.11);
 
+// @font-face {
+//     font-family: 'Inter';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-display: swap;
+//     src: url("../fonts/Inter-Regular.woff2?v=3.11") format("woff2"),
+//         url("../fonts/Inter-Regular.woff?v=3.11") format("woff");
+// }
+
+// @font-face {
+//     font-family: 'Inter';
+//     font-style: normal;
+//     font-weight: 600;
+//     font-display: swap;
+//     src: url("../fonts/Inter-SemiBold.woff2?v=3.11") format("woff2"),
+//         url("../fonts/Inter-SemiBold.woff?v=3.11") format("woff");
+// }
+
+// @font-face {
+//     font-family: 'Inter';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-display: swap;
+//     src: url("../fonts/Inter-Bold.woff2?v=3.11") format("woff2"),
+//         url("../fonts/Inter-Bold.woff?v=3.11") format("woff");
+// }
+
+// @font-face {
+//     font-family: 'Inter';
+//     font-style: normal;
+//     font-weight: 800;
+//     font-display: swap;
+//     src: url("../fonts/Inter-ExtraBold.woff2?v=3.11") format("woff2"),
+//         url("../fonts/Inter-ExtraBold.woff?v=3.11") format("woff");
+// }
+
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Proxima';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("../fonts/Inter-Regular.woff2?v=3.11") format("woff2"),
-        url("../fonts/Inter-Regular.woff?v=3.11") format("woff");
+    src: url("../fonts/ProximaNova-Reg.woff2") format("woff2")
 }
 
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url("../fonts/Inter-SemiBold.woff2?v=3.11") format("woff2"),
-        url("../fonts/Inter-SemiBold.woff?v=3.11") format("woff");
-}
-
-@font-face {
-    font-family: 'Inter';
+    font-family: 'Proxima';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url("../fonts/Inter-Bold.woff2?v=3.11") format("woff2"),
-        url("../fonts/Inter-Bold.woff?v=3.11") format("woff");
+    src: url("../fonts/ProximaNova-Sbold.woff2") format("woff2")
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Proxima';
     font-style: normal;
     font-weight: 800;
     font-display: swap;
-    src: url("../fonts/Inter-ExtraBold.woff2?v=3.11") format("woff2"),
-        url("../fonts/Inter-ExtraBold.woff?v=3.11") format("woff");
+    src: url("../fonts/ProximaNova-Bold.woff2") format("woff2")
 }
 
 //Color
@@ -64,14 +88,14 @@ $shadow-card: 0px 2px 6px rgba(0, 0, 0, 0.11);
 //Font Sizes
 
 div, p, a, input, textarea, label, button {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Proxima', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
 }
 
 h1, h2, h3{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Proxima', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -122,7 +146,7 @@ h4, .h4{
 }
 
 .bold{
-    font-weight: 700;
+    font-weight: 800;
 }
 
 *{
@@ -375,6 +399,36 @@ header{
                 margin: unset;
             }
         }
+    }
+}
+
+.wide-btn{
+    width: 300px;
+    margin: 24px auto 0;
+    display: block;
+    text-align: center;
+}
+
+// Meet Brittany
+
+.col-wrapper{
+    display: flex;
+
+    .col-6{
+        width: calc(50% - 32px);
+        margin-right: 16px;
+        flex: 1;
+
+        &:last-child{
+            margin: 0 0 0 16px;
+        }
+    }
+}
+
+.meet-brittany{
+    .profile-pic{
+        height: calc(600px);
+        width: 100%;
     }
 }
 
