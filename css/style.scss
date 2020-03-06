@@ -51,29 +51,29 @@ $shadow-card: 0px 2px 6px rgba(0, 0, 0, 0.11);
 //         url("../fonts/Inter-ExtraBold.woff?v=3.11") format("woff");
 // }
 
-@font-face {
-    font-family: 'Proxima';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("../fonts/ProximaNova-Reg.woff2") format("woff2")
-}
+// @font-face {
+//     font-family: 'Proxima';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-display: swap;
+//     src: url("../fonts/ProximaNova-Reg.woff2") format("woff2")
+// }
 
-@font-face {
-    font-family: 'Proxima';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../fonts/ProximaNova-Sbold.woff2") format("woff2")
-}
+// @font-face {
+//     font-family: 'Proxima';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-display: swap;
+//     src: url("../fonts/ProximaNova-Sbold.woff2") format("woff2")
+// }
 
-@font-face {
-    font-family: 'Proxima';
-    font-style: normal;
-    font-weight: 800;
-    font-display: swap;
-    src: url("../fonts/ProximaNova-Bold.woff2") format("woff2")
-}
+// @font-face {
+//     font-family: 'Proxima';
+//     font-style: normal;
+//     font-weight: 800;
+//     font-display: swap;
+//     src: url("../fonts/ProximaNova-Bold.woff2") format("woff2")
+// }
 
 //Color
 
@@ -88,14 +88,14 @@ $shadow-card: 0px 2px 6px rgba(0, 0, 0, 0.11);
 //Font Sizes
 
 div, p, a, input, textarea, label, button {
-    font-family: 'Proxima', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
 }
 
 h1, h2, h3{
-    font-family: 'Proxima', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
